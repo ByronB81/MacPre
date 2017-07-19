@@ -18,13 +18,9 @@ class Insurance
     {
       Console.WriteLine("Your insurance is going to be staggering!");
     }
-    else if (young)
+    else if (young || male)
     {
       Console.WriteLine("Your insurance is going to be pricey.");
-    }
-    else if (male)
-    {
-      Console.WriteLine("meh, not too bad.");
     }
     else
     {
